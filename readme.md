@@ -27,7 +27,6 @@ Aplikacja pomaga zawodnikowi znaleźć poprawną serię strzałów, jeśli taka 
 
 # Zawody Strzeleckie - Podstawowa Struktura Projektu
 
-.
 |-- pom.xml
 |-- data
 |   |-- SHO.IN
