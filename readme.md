@@ -3,7 +3,7 @@ Autor: Konrad Laskowski
 
 # Zawody Strzeleckie
 
-Witam w aplikacji służącej do symulacji Dorocznych Zawodach Strzeleckich
+Witam w aplikacji służącej do symulacji Zawodów Strzeleckich
 
 # Opis
 
@@ -19,6 +19,29 @@ Aplikacja pomaga zawodnikowi znaleźć poprawną serię strzałów, jeśli taka 
 - Sprawdzanie czy istnieje poprawna seria strzałów dla każdej tarczy.
 - Zapisywanie wyników w pliku 'SHO.OUT'.
 
+# Przykład
+
+Dla pliku SHO.IN:
+```
+2    -> Ilość bloków danych (opisów tarcz).
+4 4  -> Wymiary pierwszej tarczy (4 wiersze i 4 kolumny)
+2 4  -> W pierwszej kolumnie białe pola znajdują się w wierszach 2 i 4.
+3 4     itd.
+1 3
+1 4
+5 5  -> Wymiary drugiej tarczy (5 wierszy i 5 kolumn)
+1 5  -> W pierwszej kolumnie białe pola znajdują się w wierszach 1 i 5.
+2 4     itd.
+3 4
+2 4
+2 3
+```
+Dla pliku SHO.OUT:
+```
+2 3 1 4 -> Opis poprawnej serii strzałów dla pierwszej tarczy. Numer wiersza dla każdej kolumny, w którym znajduje się trafione białe pole.
+NO      -> Dla drugiej tarczy nie istnieje poprawna seria strzałów, dlatego odpowiedź to "NO".
+```
+
 # Wymagania:
 
 - Java JDK 17 lub nowsza
@@ -28,25 +51,24 @@ Aplikacja pomaga zawodnikowi znaleźć poprawną serię strzałów, jeśli taka 
 
 1. Sklonuj repozytorium:
   
-   git clone 
+   `git clone`
 
 2. Przejdź do folderu projektu:
 
-   cd my-app
+   `cd my-app`
 
 
 3. Skompiluj i zbuduj projekt:
    
-   mvn clean install
+   `mvn clean install`
    
 
 4. Uruchom aplikację:
    
-   mvn exec:java
+   `mvn exec:java`
 
 # Testy:
 
 Aby uruchomić testy, użyj poniższego polecenia w katalogu głównym projektu:
 
-   mvn test
-
+   `mvn test`
