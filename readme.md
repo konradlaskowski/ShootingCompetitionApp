@@ -21,7 +21,7 @@ Aplikacja pomaga zawodnikowi znaleźć poprawną serię strzałów, jeśli taka 
 
 # Wymagania:
 
-- Java JDK 8 lub nowsza
+- Java JDK 17 lub nowsza
 - Maven (zalecana wersja 3.x)
 
 
