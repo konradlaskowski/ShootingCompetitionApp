@@ -24,30 +24,6 @@ Aplikacja pomaga zawodnikowi znaleźć poprawną serię strzałów, jeśli taka 
 - Java JDK 17 lub nowsza
 - Maven (zalecana wersja 3.x)
 
-
-# Zawody Strzeleckie - Podstawowa Struktura Projektu
-
-|-- pom.xml
-|-- data
-|   |-- SHO.IN
-|   |-- SHO.OUT
-|-- src
-|   |-- main
-|   |   |-- java
-|   |   |   |-- com
-|   |   |   |   |-- mycompany
-|   |   |   |   |   |-- app
-|   |   |   |   |   |   |-- ShootingCombinations.java
-|   |-- test
-|   |   |-- java
-|   |   |   |-- com
-|   |   |   |   |-- mycompany
-|   |   |   |   |   |-- app
-|   |   |   |   |   |   |-- ShootingCombinationsTest.java
-|-- ...
-
-
-
 # Instalacja i uruchomienie:
 
 1. Sklonuj repozytorium:
